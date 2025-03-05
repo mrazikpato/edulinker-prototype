@@ -6,7 +6,7 @@ import Link from "next/link";
 const HomePage = () => {
   // Placeholder hodnoty – neskôr nahradíme skutočnými dátami
   const [searchQuery, setSearchQuery] = useState("");
-  const [stats, setStats] = useState({
+  const [stats] = useState({
     vDohadovani: 2,
     dohodnute: 5,
     uskutocnene: 8,
